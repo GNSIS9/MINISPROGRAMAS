@@ -6,6 +6,7 @@ Created on Thu Jun 15 19:38:07 2023
 """
 
 cadena = input("Introduce una cadena de caracteres: ")
+mayusculas = 
 ultimos_caracteres = cadena[-6:].upper()
 resultado = cadena[:-6] + ultimos_caracteres
-print("La cadena con los últimos caracteres en mayúsculas es:", resultado)
+print("Los últimos caracteres en mayúsculas es:", resultado)
